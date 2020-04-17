@@ -6,13 +6,12 @@
 </template>
 
 <script>
-  import Todos from "./components/Todos/Todos";
-  import TodoItem from "@/components/TodoItem/TodoItem";
+  import Todos from "@/components/Todos/Todos";
+
   export default {
   name: 'App',
   components: {
     Todos,
-    TodoItem,
   },
   data(){
     return(
@@ -45,4 +44,17 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 20px 0 ;
+  border-bottom: black 1px solid;
+}
+  .Todos {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 </style>
