@@ -1,6 +1,7 @@
 <template>
     <div class="TodoItem">
-        <h3>Hello</h3>
+        <h3>{{todo.title}}</h3>
+        <input type="checkbox" value=" {{todo.completed}} ">
     </div>
 </template>
 
