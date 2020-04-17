@@ -1,6 +1,6 @@
 <template>
     <div class="TodoItem">
-        <pre v-text="$attrs"/>
+        <h3>Hello</h3>
     </div>
 </template>
 
@@ -11,3 +11,7 @@
         },
     };
 </script>
+
+<style>
+
+</style>
